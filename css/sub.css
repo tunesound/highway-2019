@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+#footer { position:static; width:auto; margin: 0; border-top:1px solid #c0c0c0;}
+#footer > div { position: relative; width: 1200px; margin: 0 auto;}
+#footer > div > a { position: absolute; right: 0; top: 0;}
+#footer > div > img { padding: 42px 0 26px;}
+
+.h2 { font-size: 34px; color:#000;}
+.h3 { padding: 50px 0 31px; background: url(../images/sub/bu_h3.gif) no-repeat 0 53px; font-size:20px; color: #010101; text-indent: 32px; line-height: 100%;}
+.greetings { padding: 76px 0 0; color: #5e5e5e; font-size: 15px; line-height: 24px;}
+.greetings img:first-child { padding: 0 0 42px;}
+.greetings p { padding: 43px 0 0; text-align: right;}
+.info { margin: 74px 0 0; padding: 406px 0 0; background: url(../images/sub/bg_visual.jpg) no-repeat; font-size: 15px; color: #434343; line-height: 24px; letter-spacing: 1px;}
+
+.step { border-top: 2px solid #d4d4d4; border-bottom: 1px solid #ddd;}
+.step li { float: left; position: relative;padding: 37px 0 29px; width: 20%; text-align: center; font-size: 14px; color: #3c3c3d; line-height: 22px;}
+.step li:after { content: ""; display: block; position: absolute; left: -13px; top: -5px; width: 50px; height: 10px; background: url(../images/sub/bg_arrow.png) no-repeat center #fff;}
+.step li:first-child:after { display:none;}
+.step li strong { display: block; padding: 0 0 11px; font-size: 16px; color: #5b677a; line-height: 100%;}
+
+.highway_ing { padding: 0 0 22px; border-top: 1px solid #a1a6b0; border-bottom: 1px solid #ddd;}
+.highway_ing li:first-child { float: none; margin: 0 0 22px; width: 100%; border-bottom: 1px solid #ddd; text-align: center;}
+.highway_ing li:first-child:after {content: ""; display: block; clear: both;}
+.highway_ing li:first-child div { position: relative; padding: 0 0 0 95px; height: auto; border: none;}
+.highway_ing li:first-child h4,
+.highway_ing li:first-child span { height: 75px; line-height: 75px;}
+.highway_ing li:first-child h4 { width: 95px; position: absolute; left: 0; top: 0;}
+.highway_ing li:first-child span { display: block; font-size: 18px;}
+.highway_ing li { float: left; width: 25%;}
+.highway_ing li > div { padding: 10px 40px 0 30px; height: 80px; border-left: 1px solid #ddd; color: #525a69; line-height: 100%;}
+.highway_ing li > div div { padding-top: 11px; font-size: 14px; letter-spacing: -1px;}
+.highway_ing li > div h4 { padding: 0 0 7px; }
+.highway_ing li:first-child + li > div { border-left:none;}
+.highway_ing li h4 { font-size: 15px; color: #000;}
+.highway_ing li > div span { font-size: 29px; font-weight: bold;}
+.highway_ing li em { padding: 0 0 0 7px; font-size: 15px;}
+
+
+table.type1 tr:first-child th,
+table.type1 tr:first-child td { border-top: 1px solid #a1a6b0;}
+table.type1 th,
+table.type1 td { border-top: 1px solid #ddd;}
+table.type1 th { padding: 28px 0 23px 44px; font-size: 16px; color: #3b3a3a; text-align: left; font-weight: normal;}
+table.type1 td { padding: 28px 0 23px; font-size: 14px; color: #565757;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

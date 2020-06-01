@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner { height: 160px; background: #0e3c84;}
+#banner > div { position: relative; width:1200px; margin: 0 auto; text-align: center;}
+#banner .prev,
+#banner .next,
+#banner .control,
+#banner .close { position: absolute;}
+#banner .prev { left: 0; top: 42px;}
+#banner .next { right: 0; top: 42px;}
+#banner .control { left: 0; bottom: 11px; font-size: 0;}
+#banner .control a { margin: 0 15px 0 0;}
+#banner .close { right: 0; bottom: 4px;}
+#banner .close label { padding: 0 22px 0 0; font-size: 11px; color: #fff;}
+
+
+#visual { background: url(../images/index/bg_visual.jpg) no-repeat center top;}
+#visual > div { width:1200px; margin: 0 auto;}
+#visual .copy { padding: 68px 0 0;}
+#visual .copy > div { float: left; width: 33.33%;}
+#visual .copy .txt1 { padding: 127px 0 0 0; font-size:50px; font-weight: bold; color: #fff; letter-spacing: 12px;}
+#visual .copy .txt1 div { font-size: 33px; font-weight: bold; color: #fff; letter-spacing: 0;}
+#visual .copy .txt1 img { margin: 0 22px 0 8px;}
+#visual .copy .txt2 { padding: 80px 0 0 0; width: 399px; height: 264px; background: url(../images/index/bg_circle.png) no-repeat center; font-family: 'russell_squareregular'; font-size: 20px; color: #fff; text-align: center;}
+#visual .copy .txt2 div { font-size: 135px;font-family: 'russell_squareregular'; color: #fff;}
+#visual .copy .txt3 { float: right; padding: 109px 37px 0 0; width: 322px; color: #fff; font-family: 'russell_squareregular'; text-align: center; font-size: 40px; letter-spacing: 15px;}
+#visual .copy .txt3 div { font-size: 20px; color: #fff; text-align: center; letter-spacing: 7px;}
+#visual .paging { padding: 27px 0 16px; text-align: center; font-size: 0;}
+#visual .paging div { padding: 17px 0 0 0;}
+#visual .paging ul { display: inline-block;font-size: 0;}
+#visual .paging li { display: inline-block; margin: 0 7px;}
+#visual .paging p { display: inline-block; margin: 0 7px;font-size: 0;}
+#visual .bottom h2 { float: left;padding: 33px 0 0 0; width: 100px; height: 67px; background: #f13009; color: #fff; text-align: center; font-size: 18px;}
+#visual .bottom .event { float: left; position: relative; padding: 0 80px; width: 730px; height: 100px; background: rgba(0,0,0,0.3);}
+#visual .bottom .event div { position: absolute; left: 38px; top:28px; background: url(../images/index/bg_line.gif) no-repeat center 21px;}
+#visual .bottom .event div a { display: block; margin: 0 0 32px;}
+#visual .bottom .event ul { padding: 26px 0 0 0;}
+#visual .bottom .event li { float: left; width: 50%;}
+#visual .bottom .event li a { display: block; padding:0 0 0 18px; font-size: 14px; color: #fff; background: url(../images/index/bu_circle.png) no-repeat left; line-height: 22px;}
+#visual .bottom .weather { float: right; position: relative; padding: 0 43px; width: 124px; height: 100px; background: #23b963;}
+#visual .bottom .weather h3 { padding: 17px 0 9px; text-align: center; font-size: 15px; color: #fff;}
+#visual .bottom .weather > a { position: absolute; top: 50%; margin-top: -6.5px;}
+#visual .bottom .weather > a.left { left: 19px;}
+#visual .bottom .weather > a.right { right: 19px;}
+#visual .bottom .weather > div { position: relative;padding: 0 0 0 65px; font-size: 12px; color: #fff; }
+#visual .bottom .weather > div img { position: absolute; left: 9px; top: 0;}
+#visual .bottom .weather > div div { font-size: 30px; color: #fff; font-weight: bold;}
+
+#traffic_box{ background: url(../images/index/bg_traffic.jpg) no-repeat center top;}
+#traffic_box > div { position: relative; width:1200px; margin: 0 auto;}
+#traffic_box > div h2 { padding: 70px 0 0 0;font-size:38px;  color: #fefefe; text-align: center;}
+#traffic_box > div .speed { margin:35px auto 145px; width: 250px; height: 230px; background: url(../images/index/bg_circle2.png) no-repeat center top; text-align: center;}
+#traffic_box > div .speed div { color: #fff;}
+#traffic_box > div .speed div.t1 { padding: 72px 0 20px; font-size: 14px; font-weight: bold; text-indent: 6px; letter-spacing: 10px;}
+#traffic_box > div .speed div.t2 { font-size: 60px;font-family: 'russell_squareregular'; line-height: 73%;}
+#traffic_box > div .speed div.t3 { padding: 17px 0 0; font-size: 11px;}
+#traffic_box > div .left { position: absolute; left:50px; top:246px;}
+#traffic_box > div .right { position: absolute; right: 60px; top:270px;}
+#traffic_box > div .left li { float: left; padding: 0 3px 0 0;}
+#traffic_box > div .left a { display: block; width: 105px; height: 47px; background: url(../images/index/bg_btn_tab.png) no-repeat left top; line-height: 47px; text-align: center; color: #fff;}
+#traffic_box > div .left a:hover,
+#traffic_box > div .left li.on a { background-position:right top;}
+#traffic_box > div .graph { margin: 0 auto; width: 1052px;}
+#traffic_box > div .graph ul { padding: 98px 0 0 0;}
+#traffic_box > div .graph li { float: left; position: relative; padding: 0 0 0 80px; width: 45px; background: url(../images/index/bg_arrow.png) no-repeat 23px center; font-size: 15px; color: #fff; font-weight: bold; text-align: center;}
+#traffic_box > div .graph li:first-child { background: none; padding-left: 0;}
+#traffic_box > div .graph li:first-child div { right: -33px;}
+#traffic_box > div .graph li > div { position: absolute; right:-63px; top:-197px; font-size: 12px; color: #fff; text-align: center;}
+#traffic_box > div .graph li > div strong { display: block; position: relative; font-size: 25px;}
+#traffic_box > div .graph li > div strong  img  {display: block; margin: 0 auto;}
+#traffic_box > div .graph li > div strong  img + span { display: none; position: absolute; left: 29px; top:-22px; padding: 8px; width: 215px; background: #0e3c84; font-size:11px; color: #fff;}
+#traffic_box > div .graph li > div strong  img:hover + span { display: block;}
+#traffic_box > div .next { padding: 37px 0 28px; text-align: center;}
+
+#safe { background: url(../images/index/bg_visual2.gif) no-repeat center top;}
+#safe > div { position: relative; width:1120px; margin: 0 auto;}
+#safe > div h2{ padding: 72px 0 36px; font-size: 38px; color: #123977; text-align: center;}
+#safe .list { border: 1px solid #ddd;}
+#safe .list li { float: left; position: relative; margin-left: -1px; width: 25%; border-left: 1px solid #ddd; text-align: center; background-position: center 50px; background-repeat: no-repeat;}
+#safe .list li h3 { padding: 140px 0 16px; background: url(../images/index/bg_line2.gif) no-repeat center bottom; font-size: 19px; color: #333;}
+#safe .list li div { padding: 19px 0 0; height: 85px; font-size: 13px; color: #777; line-height: 18px;}
+#safe .list li a { position: absolute; left: 0; top: 0; z-index: 2; width: 100%; height: 100%; color:transparent;}
+#safe .list li.bg1 { background-image: url(../images/index/bg_ico_off1.png);}
+#safe .list li.bg2 { background-image: url(../images/index/bg_ico_off2.png);}
+#safe .list li.bg3 { background-image: url(../images/index/bg_ico_off3.png);}
+#safe .list li.bg4 { background-image: url(../images/index/bg_ico_off4.png);}
+#safe .list li:hover { background-color: #1660d4;}
+#safe .list li:hover h3,
+#safe .list li:hover div { color: #fff;}
+#safe .list li.bg1:hover { background-image: url(../images/index/bg_ico_on1.png);}
+#safe .list li.bg2:hover { background-image: url(../images/index/bg_ico_on2.png);}
+#safe .list li.bg3:hover { background-image: url(../images/index/bg_ico_on3.png);}
+#safe .list li.bg4:hover { background-image: url(../images/index/bg_ico_on4.png);}
+#safe .news { padding: 40px 0 0;}
+#safe .news > div { float: right; position: relative; width: 530px;}
+#safe .news > div:first-child { float: left;}
+#safe .news h3 { padding: 0 0 21px; font-size: 22px; color: #333;}
+#safe .news li { position: relative;padding: 0 0 0 100px; height: 74px;}
+#safe .news li a{ display: block;height: 74px; line-height: 74px; border-bottom: 1px solid #ececec;}
+#safe .news li a img { position: relative; top: -2px;}
+#safe .news li span { display: block; position: absolute; left: 0; top: 0; width: 70px; height: 74px; border-bottom: 1px solid #ececec; text-align: center; font-size: 13px; color: #888;}
+#safe .news li span strong { display: block; padding: 20px 0 0 0; font-size: 21px; color: #1e62cc;}
+#safe .news > div p { position: absolute; right: 0; top: 5px;}
+#safe .next { padding: 35px 0 20px; text-align: center;}
+
+#trip { background: url(../images/index/bg_visual2.jpg) no-repeat center top;}
+#trip > div { position: relative; width:1200px; margin: 0 auto;}
+#trip > div h2 { padding: 72px 0 37px; font-size: 38px; color: #ab2246; text-align: center;}
+#trip > div > a {position: absolute; right: 0; top: 40px;}
+#trip .white_box { padding: 5px 60px 30px; background: rgba(255,255,255,0.9);}
+#trip .white_box > div { float: left;}
+#trip .white_box > div h3 { padding: 25px 0 15px; font-size: 20px; color: #333;}
+#trip .white_box > div > a { display: block;position: relative;}
+#trip .white_box > div > a em,
+#trip .white_box > div > a span { position: absolute;}
+#trip .white_box > div > a span { display: none; left: 50%; top: 50%; margin:-39px 0 0 -85px; padding: 21px 0 0 0; width: 170px; height:57px; background: url(../images/index/bg_over.png) no-repeat; font-size:14px; color: #fff; text-align: center; line-height: 20px;}
+#trip .white_box > div > a:hover span { display: block;}
+#trip .white_box > div > a em { left:20px; bottom:18px; font-size: 14px; color: #fff;}
+#trip .white_box > div > a:hover em { display: none;}
+#trip .white_box > div.mid { padding: 0 60px;}
+#trip .white_box > div.mid a span { left:249px; top: 289px; margin: 0; padding:0; width:91px; height:31px; line-height:31px; background: url(../images/index/btn_more2.png); text-align: left; text-indent: 17px;}
+#trip .white_box > div.mid p { padding: 20px 0 13px; font-size: 17px; color: #333; font-weight: bold;}
+#trip .white_box > div.mid div { font-size: 13px; color: #333;}
+#trip > div > p { padding: 25px 0 35px; text-align: center;}
+
+#sns { background: url(../images/index/bg_visual3.jpg) no-repeat center top;}
+#sns > div {width:1200px; margin: 0 auto; height: 760px;}
+#sns > div > h2 { padding: 74px 0 20px; text-align: center; color: #fff; font-size: 58px; letter-spacing: 20px; font-weight:normal;}
+#sns > div > p { font-size: 18px; color: #fff; text-align: center;}
+#sns > div .sns_box { padding: 47px 0 0;}
+#sns > div .sns_box > div { float: left; padding: 40px 50px 0; width:270px; height: 460px; margin-left: 45px; background: #fff;}
+#sns > div .sns_box > div:first-child { margin: 0;}
+#sns > div .sns_box > div h3 { padding: 0 0 20px; font-size: 21px; text-align: center;}
+#sns > div .sns_box > div.sns1 h3 { color: #3658a5;}
+#sns > div .sns_box > div.sns2 h3 { padding: 0; color: #32900b;}
+#sns > div .sns_box > div.sns2 p { padding: 9px 0 19px; font-size: 14px; color: #828281; text-align: center;}
+#sns > div .sns_box > div.sns2 img {border-bottom: 1px solid #aaa;}
+#sns > div .sns_box > div.sns2 h4 img { border: none; padding: 0 0 15px;}
+#sns > div .sns_box > div.sns3 h3 { color: #3b9dea;}
+#sns > div .sns_box > div a { display: block; margin: 10px 0 0; height:43px; text-align: center; color: #fff; font-size:12.5px; line-height: 43px; background: url(../images/index/bg_arrow2.png) no-repeat 236px center;}
+#sns > div .sns_box > div.sns1 a { background-color: #3b56ad;}
+#sns > div .sns_box > div.sns2 a { background-color: #35b22c;}
+
+
+
+

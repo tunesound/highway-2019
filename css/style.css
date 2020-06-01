@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header { height: 99px; border-bottom: 1px solid #c5c5c5;}
+#header > div { width:1200px; margin: 0 auto;}
+#header > div > * { float:left;}
+#header h1 { padding: 0 20px 0 0;}
+#header #lnb li { float:left; padding: 0 16px;}
+#header #lnb li a { display:block; height:99px; line-height: 99px; font-size: 16px; font-weight: bold; color: #333;}
+#header #lnb li a:hover { height:95px; background: url(../images/index/bg_lnb.gif) no-repeat center 87px; border-bottom:4px solid #1764dc; color:#3c91f3;}
+#header p { float:left; height: 99px; line-height: 99px; font-weight: bold; font-size: 22px; color: #0e3c84;}
+#header p span { color: #1764dc;}
+#header > div > div { float: right;}
+#header > div > div > div { float:left; padding:30px 0 0 11px; font-size: 0;}
+#header .btn_pop { display: inline-block;width: 75px; height: 40px; background: url(../images/index/bu_arrow_down.gif) no-repeat 55px center #2cc06b; font-size: 13px; color: #fff; line-height: 40px; text-indent: 9px;}
+
+#footer { position: relative; width:1200px; margin: 0 auto; text-align: center;}
+#footer > a { position: absolute; right: 0; top: 0;}
+#footer > img { padding: 42px 0 26px;}
+#footer .nav li { display: inline-block; position: relative;padding: 0 15px;}
+#footer .nav li:after { content: ""; position: absolute; left: 0; top: 0; width: 1px; height: 14px; background: #b2b2b2;}
+#footer .nav li:first-child:after { display: none;}
+#footer .nav li a { font-size: 13.5px; color: #333;}
+#footer address { padding: 20px 0 38px; font-size: 13.5px; color: #666;}
+#footer address em { display: block; padding: 25px 0 0; font-size: 12.5px; color: #999;}
+#footer .sns li { display: inline-block;}
+#footer .sns li a { display: block; overflow: hidden;width: 35px; height: 35px; background: url(../images/common/ico_footer_sns.gif) no-repeat; color: transparent;}
+#footer .sns li.ico1 a { background-position: 0 0;}
+#footer .sns li.ico2 a { background-position:-43px 0;}
+#footer .sns li.ico3 a { background-position:-86px 0;}
+#footer .sns li.ico1 a:hover { background-position: 0 bottom;}
+#footer .sns li.ico2 a:hover { background-position:-43px bottom;}
+#footer .sns li.ico3 a:hover { background-position:-86px bottom;}
+
+#sub_visual { position: relative;height: 340px; background: url(../images/common/bg_visual1.png) no-repeat center top;}
+#sub_visual:after { content: ""; display: block; position: absolute; left: 0; bottom: 0; width: 100%; height:59px; border-top: 1px solid #070f08; background: rgba(0,0,0,0.3);}
+#sub_visual > div { position: relative; width:1200px; height: 340px; margin: 0 auto;}
+#sub_visual > div > p { padding: 112px; text-align: center; color: #fff; font-size: 35px;}
+#sub_visual > div > p span { display: block; font-family: 'russell_squareregular'; font-size: 18px;}
+#sub_visual > div > p em { position: relative; top:4px; font-family: 'russell_squareregular';}
+#sub_visual > div > p ins { display: inline-block;width: 37px; height: 11px; background: url(../images/common/ico_arrow.png) no-repeat center; font-size: 0px; color: transparent; vertical-align: middle;}
+#sub_visual > div .left { position: absolute; left: 0; bottom: 0; z-index: 2;}
+#sub_visual > div .left > a { display: block; float: left;width: 60px; height: 60px; background: url(../images/common/ico_home.png) no-repeat center #dc300a; font-size: 0px; color: transparent;}
+#sub_visual > div .left ul { float: left;}
+#sub_visual > div .left ul li { float: left;}
+#sub_visual > div .left ul li a { display: block; width: 171px; height: 60px; border-right: 1px solid #0f1013;color: #fff; font-size: 18px; line-height: 60px; text-indent: 20px;}
+#sub_visual > div .left ul li.ico1 a { background: url(../images/common/ico_bar.png) no-repeat 142px center;}
+#sub_visual > div .left ul li.ico2 a { background: url(../images/common/ico_arrow2.png) no-repeat 142px center;}
+#sub_visual > div .right { position: absolute; right: 0; bottom: 0; z-index: 2;}
+#sub_visual > div .right > ul { border-right:1px solid #1d1c1d;}
+#sub_visual > div .right > ul:after { content: ""; display: block; clear: both;}
+#sub_visual > div .right > ul > li { float: left;}
+#sub_visual > div .right > ul > li > a { display: block; width: 59px; height: 59px; border-left:1px solid #1d1c1d; color: transparent; }
+#sub_visual > div .right > ul > li.ico1 > a { background: url(../images/common/ico_fav.png) no-repeat center;}
+#sub_visual > div .right > ul > li.ico2 > a { background: url(../images/common/ico_share.png) no-repeat center;}
+#sub_visual > div .right > ul > li.ico3 > a { background: url(../images/common/ico_print.png) no-repeat center;}
+#sub_visual > div .right > ul > li:hover ul { display: block;}
+#sub_visual > div .right li ul { position: absolute; display: none;}
+#sub_visual > div .right li ul a { display: block; height: 50px; background:no-repeat center #4d4d4d; border-bottom: 1px solid #000; color: transparent; }
+#sub_visual > div .right li ul a.ico2_1 { background-image: url(../images/common/ico_sns1.png);}
+#sub_visual > div .right li ul a.ico2_2 { background-image: url(../images/common/ico_sns2.png);}
+#sub_visual > div .right li ul a.ico2_3 { background-image: url(../images/common/ico_sns3.png);}
+#sub_visual > div .right li ul a.ico2_1:hover { background-color: #4b65b9;}
+#sub_visual > div .right li ul a.ico2_2:hover { background-color: #55acef;}
+#sub_visual > div .right li ul a.ico2_3:hover { background-color: #5fb314;}
+
+#container { width:1200px; margin:0 auto;}
+#container #snb { float: left; padding: 30px 29px 0 0; width:230px;}
+#container #snb h2 { padding: 49px 0 0; height: 91px; background: #333f52; font-size: 21px; color: #fff; font-weight: normal; text-align: center;}
+#container #snb h2 span { display: block; padding: 13px 0 0; color: #8f939b; font-size: 12px;}
+#container #snb li a { display: block; position: relative;height: 53px; border-bottom: 1px solid #8f939b; line-height: 53px; text-indent:25px; color: #303030;}
+#container #snb li a:hover { color:#1354bb; text-indent: 61px; }
+#container #snb li a:hover:after { content: ""; display: block; position: absolute; left: 0; top: 0; width:45px; height:54px; background: url(../images/common/bg_snb.png) no-repeat center #1354bb;}
+#container #contents {float: left; padding: 65px 0 79px 60px; width: 880px; border-left: 1px solid #e0e0e0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
